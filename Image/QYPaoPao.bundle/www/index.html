@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html style="height: 100%;background: #ffffff;">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="format-detection" content="telphone=no, email=no" />
+
+	<title>群二维码名片</title>
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+</head>
+<body>
+	<div class="bubble-page">
+		<div class="top">
+			<img class="group-image" src="img/female.png" onerror="this.src='img/female.png'"/>
+			<div class="group-members"></div>	
+		</div>
+		<div>
+			<div class="group-qr qr"></div>	
+		</div>
+		<div style="text-align: center;font-size: 13px;">
+			<div style="color: #333333;margin-bottom: 10px;">扫描二维码，加入群</div>
+			<div style="color: #666666;">使用爱奇艺客户端扫描可以直接加入</div>
+		</div>
+	</div>
+	<div class="circle-page">
+		<div class="group-bk" style="position: relative;">
+			<div class="group-title"></div>
+			<div class="group-qr-img qr"></div>
+			<div class="bottom-text">扫描二维码，加入圈子</div>
+			<div class="bottom-url">www.iqiyi.com</div>
+		</div>
+		<div class="group-prompt">使用爱奇艺手机客户端扫描可直接进入圈子</div>
+	</div>
+	<div class="alert"><strong>警告！</strong>请检查网络。</div>
+	<script src="./js/zepto.min.js"></script>
+	<script type="text/javascript">
+		var count = 4;
+		var qrcode = false;
+	</script>
+	<script src="./js/script.js"></script>
+</body>
+</html>

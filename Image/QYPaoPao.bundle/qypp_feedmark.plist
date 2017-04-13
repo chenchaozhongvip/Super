@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>[%#$精$#%]</key>
+	<string>feed_mark_jing</string>
+	<key>[%#$视$#%]</key>
+	<string>feed_mark_shi</string>
+	<key>[%#$顶$#%]</key>
+	<string>feed_mark_ding</string>
+	<key>[%#$热$#%]</key>
+	<string>feed_mark_re</string>
+	<key>[%#$公告$#%]</key>
+	<string>feed_mark_gonggao</string>
+	<key>[%#$话题$#%]</key>
+	<string>feed_mark_topic</string>
+</dict>
+</plist>

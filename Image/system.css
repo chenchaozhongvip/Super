@@ -1,0 +1,408 @@
+﻿@charset "utf-8";
+
+
+/*--------------------html tag 开始--------------------*/
+/*参考chrome中默认样式 */
+body {
+	font-size: 1em;
+	line-height: 1.5em;
+	text-indent: 0em;
+	color: #000000;
+}
+
+p {
+	margin: 1em 0px;
+	line-height: 150%;
+}
+
+h1 {
+	font-size: 2em;
+	margin:0.67em 0px;
+	font-weight: bold;
+	text-indent: 0em;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin:0.83em 0px;
+	font-weight: bold;
+	text-indent: 0em;
+}
+
+h3 {
+	font-size: 1.17em;
+	margin:1em 0px;
+	font-weight: bold;
+	text-indent: 0em;
+}
+
+h4 {
+	margin:1.33em 0px;
+	font-weight: bold;
+	text-indent: 0em;
+}
+
+h5 {
+	font-size: 0.83em;
+	margin:1.67em 0px;
+	font-weight: bold;
+	text-indent: 0em;
+}
+
+h6 {
+	font-size: 0.67em;
+	margin:2.33em 0px;
+	font-weight: bold;
+	text-indent: 0em;
+}
+
+
+
+/* 暂不支持的tag
+big {
+	font-size: larger;
+}
+
+blockquote {
+	margin:1em 2em;
+}
+
+
+i, cite, em, var, address, dfn {
+	font-style: italic;
+}
+
+pre {
+	font-family: monospace;
+	white-space: pre;
+	margin: 1em 0px;
+	text-indent: 0em;
+}
+
+xmp, plaintext, listing {
+	font-family: monospace;
+	white-space: pre;
+	margin: 1em 0px;
+}
+
+s, strike, del {
+	text-decoration: line-through;
+}
+
+small {
+	font-size: smaller;
+}
+
+strong, b {
+	font-weight: bold;
+}
+
+sub {
+	vertical-align: sub;
+	font-size: smaller;
+}
+
+sup {
+	vertical-align: super;
+	font-size: smaller;
+}
+
+tt, code, kbd, samp {
+	font-family: monospace;
+}
+
+u, ins {
+	text-decoration: underline;
+}
+
+hr {
+	margin:0.5em auto;
+	width:100%;
+	border-top:1px solid #9A9A9A;
+}
+
+
+
+input {
+	vertical-align:middle;
+}
+
+a[href]  {
+text-decoration: underline;
+color:blue;
+}*/
+/*3个块元素*/
+/*dl {
+	margin: 1em 0px;
+}
+
+dt {
+}
+
+dd {
+margin-left: 2em;
+}
+
+/*table*/
+/*table {
+	margin:0.6em 0;
+}
+
+th {
+	font-weight: bold;
+	text-indent:0em;
+	text-align:center;
+}
+
+caption {
+	text-align:center;
+}
+
+td {
+	vertical-align:middle;
+	text-indent:0em;
+}
+*/
+/*ruby > rt  {
+	font-size:50%;
+}*/
+/*--------------------html tag 结束--------------------*/
+
+
+/*第一阶段，txt阅读支持*/
+/*
+根据ui设计的样式定义
+未定义font-family，使用默认中文字体
+*/
+
+
+/*-----------------------------*/
+/*正文页 & 断网错误页*/
+/*标题*/
+h1.text {
+	font-size:1.3em;
+	line-height:1.5em;
+	text-align:left;
+	font-weight: normal;
+	text-indent:0;
+	margin:0 60px 1.5em 0;
+}
+
+/*正文*/
+p.text {
+	font-size:1em;
+	line-height:1.7em;
+	text-align:justify;
+	text-indent:0em;
+	margin:0.75em 0;
+}
+
+/*-----------------------------*/
+/*以下为特殊页，以屏幕宽度/20 = 32px作为一个em*/
+/*版权页*/
+/*书名*/
+h1.title{
+	font-size:1.75em;
+	line-height:1.39em;
+	text-align:center;
+	text-indent:0em;
+	font-weight: normal;
+	margin:2.25em 0 1.46em 0;
+	iqiyi:fixed_style fixed_ratio;
+}
+
+/*作者*/
+p.author{
+	font-size:1em;
+	line-height:1.41em;
+	text-align:center;
+	text-indent:0em;
+	margin:0 0 1.06em 0;
+	iqiyi:fixed_style fixed_ratio;
+}
+
+/*类别-字数-状态*/
+p.info{
+	font-size:0.75em;
+	line-height:1.17em;
+	text-align:center;
+	text-indent:0em;
+	margin:0 0 15.125em 0;
+	iqiyi:fixed_style fixed_ratio;
+}
+
+/*版权信息*/
+p.right{
+	font-size:0.63em;
+	line-height:1.5em;
+	text-align:center;
+	text-indent:0em;
+	margin:0;
+	iqiyi:fixed_style fixed_ratio;
+}
+
+/*-----------------------------*/
+/*预览-购买页*/
+/*标题*/
+h1.preview{
+	font-size:1.47em;
+	line-height:1.53em;
+	text-align:left;
+	text-indent:0em;
+	font-weight: normal;
+	margin:0 1.28em 0.47em 0;
+	iqiyi:fixed_style;
+}
+/*正文块：保证下方的空白*/
+body.preview{
+	iqiyi:fixed_preview_height;
+}
+/*正文*/
+p.preview{
+	font-size:1em;
+	line-height:1.5em;
+	text-align:justify;
+	text-indent:0em;
+	margin:0.69em 0 0.56em 0;
+	iqiyi:fixed_style;
+}
+
+/*-----------------------------*/
+/*篇章页*/
+/*书名*/
+p.title{
+	font-size:1em;
+	line-height:1.69em;
+	text-align:left;
+	text-indent:0em;
+	margin:9.06em 1.56em 1.25em 0;
+	iqiyi:fixed_style;
+}
+/*卷名*/
+p.chapter{
+	font-size:1.63em;
+	line-height:1.54em;
+	text-align:left;
+	text-indent:0em;
+	margin:0 0.96em 0 0;
+	iqiyi:fixed_style;
+}
+
+/*-----------------------------*/
+/*错误页*/
+div.error{
+	font-size: 1em;
+	margin:7.1875em 1.625em 7.1875em 1.625em;
+}
+/*错误信息*/
+p.error{
+	font-size: 0.88em;
+	line-height:1.57em;
+	text-align:left;
+	text-indent:0em;
+	margin:0;
+	iqiyi:fixed_style;
+}
+
+/*-----------------------------*/
+/*颜色方案*/
+/*1.普通*/
+/*.bg{
+	background-color: #FFFBF8;
+}*/
+.maincolor{
+	color: #333333;
+}
+.secondcolor{
+	color: #999999;
+}
+/*-----------------------------*/
+/*2.牛皮纸*/
+/*.bg2{
+	background-image: url("bg_reader_paper.jpg");
+}*/
+.maincolor2{
+	color: #333333;
+}
+.secondcolor2{
+	color: #775943;
+}
+/*-----------------------------*/
+/*3.绿色*/
+/*.bg3{
+	background-image: url("bg_reader_bamboo.jpg");
+}*/
+.maincolor3{
+	color: #33543C;
+}
+.secondcolor3{
+	color: #709373;
+}
+/*-----------------------------*/
+/*4.夜间*/
+/*.bg4{
+	background-color: #222222;
+}*/
+.maincolor4{
+	color: #444444;
+}
+.secondcolor4{
+	color: #333333;
+}
+/*-----------------------------*/
+/*5.粉色*/
+/*.bg5{
+	background-image: url("bg_read_pink.jpg");
+}*/
+.maincolor5{
+	color: #723340;
+}
+.secondcolor5{
+	color: #AF7B80;
+}
+/*end 颜色方案*/
+/* end 第一阶段，txt阅读支持*/
+
+
+
+
+/*test*/
+
+p.title1{
+	font-size:720px;
+	text-align:left;
+	text-indent:0em;
+	margin:290px 50px 40px 0;
+}
+
+div.error1{
+	font-size: 1em;
+	margin:7.1875em 1.625em 7.1875em 1.625em;
+	iqiyi:fixed_style;
+}
+
+.bd1{
+	margin: 10px;
+	padding: 5px;
+	border-top: solid red 10px;
+	border-right: dashed green 15px;
+	border-bottom: dotted blue 20px;
+	border-left: double green 25px;
+}
+.bg-1{
+	margin: 10px;
+	padding: 5px;
+	background-color: green;
+}
+.bg-2{
+	background-color: green;
+}
+.bg-3{
+	padding: 5px;
+	background-color: green;
+}
+.bd2{
+	margin: 10px;
+	padding: 5px;
+	border: solid red 10px;
+}
