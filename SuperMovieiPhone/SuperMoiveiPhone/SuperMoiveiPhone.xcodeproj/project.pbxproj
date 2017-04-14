@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D639AAF1E9E38220044B3D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D639AAE1E9E38220044B3D5 /* main.m */; };
+		0D639AB21E9E38220044B3D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D639AB11E9E38220044B3D5 /* AppDelegate.m */; };
+		0D639ABA1E9E38220044B3D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D639AB91E9E38220044B3D5 /* Assets.xcassets */; };
+		0D639AC81E9E38220044B3D5 /* SuperMoiveiPhoneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D639AC71E9E38220044B3D5 /* SuperMoiveiPhoneUITests.m */; };
+		0D639AD91E9E38DD0044B3D5 /* CCZThirdParty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D639AD51E9E38DD0044B3D5 /* CCZThirdParty.framework */; };
+		0D639ADA1E9E38DD0044B3D5 /* CCZUserCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D639AD61E9E38DD0044B3D5 /* CCZUserCenter.framework */; };
+		0D639ADF1E9E39220044B3D5 /* SMTabBarContrller.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D639ADD1E9E39220044B3D5 /* SMTabBarContrller.m */; };
+		0D639AE01E9E39220044B3D5 /* vcjson.json in Resources */ = {isa = PBXBuildFile; fileRef = 0D639ADE1E9E39220044B3D5 /* vcjson.json */; };
+		0D74582E1E9DF5EA00C170CA /* CCZDataModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D74582D1E9DF5EA00C170CA /* CCZDataModel.framework */; };
+		0DF0A1E61E9E42010007A44F /* SMRecommdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF0A1E51E9E42010007A44F /* SMRecommdVC.m */; };
+		0DF0A1E91E9E421D0007A44F /* SMMyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF0A1E81E9E421D0007A44F /* SMMyVC.m */; };
+		0DF0A1EC1E9E430A0007A44F /* SMDownloadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF0A1EB1E9E430A0007A44F /* SMDownloadVC.m */; };
+		CC9F05C3D53DDCAED6D45600 /* Pods_SuperMoiveiPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEEA0FBDC5D0C5819F461B7E /* Pods_SuperMoiveiPhone.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D639AC41E9E38220044B3D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D639AA21E9E38220044B3D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D639AA91E9E38220044B3D5;
+			remoteInfo = SuperMoiveiPhone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D639AAA1E9E38220044B3D5 /* SuperMoiveiPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperMoiveiPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D639AAE1E9E38220044B3D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D639AB01E9E38220044B3D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D639AB11E9E38220044B3D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D639AB91E9E38220044B3D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D639ABE1E9E38220044B3D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D639AC31E9E38220044B3D5 /* SuperMoiveiPhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperMoiveiPhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D639AC71E9E38220044B3D5 /* SuperMoiveiPhoneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperMoiveiPhoneUITests.m; sourceTree = "<group>"; };
+		0D639AC91E9E38220044B3D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D639AD31E9E38DD0044B3D5 /* CCZFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CCZFoundation.framework; path = "../CCZFoundation/build/Debug-iphoneos/CCZFoundation.framework"; sourceTree = "<group>"; };
+		0D639AD41E9E38DD0044B3D5 /* CCZGUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CCZGUI.framework; path = "../CCZGUI/build/Debug-iphoneos/CCZGUI.framework"; sourceTree = "<group>"; };
+		0D639AD51E9E38DD0044B3D5 /* CCZThirdParty.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CCZThirdParty.framework; path = "../CCZThirdParty/build/Debug-iphoneos/CCZThirdParty.framework"; sourceTree = "<group>"; };
+		0D639AD61E9E38DD0044B3D5 /* CCZUserCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CCZUserCenter.framework; path = "../CCZUserCenter/build/Debug-iphoneos/CCZUserCenter.framework"; sourceTree = "<group>"; };
+		0D639ADC1E9E39220044B3D5 /* SMTabBarContrller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMTabBarContrller.h; sourceTree = "<group>"; };
+		0D639ADD1E9E39220044B3D5 /* SMTabBarContrller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMTabBarContrller.m; sourceTree = "<group>"; };
+		0D639ADE1E9E39220044B3D5 /* vcjson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vcjson.json; sourceTree = "<group>"; };
+		0D74582D1E9DF5EA00C170CA /* CCZDataModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CCZDataModel.framework; path = "../CCZDataModel/build/Debug-iphoneos/CCZDataModel.framework"; sourceTree = "<group>"; };
+		0DF0A1E41E9E42010007A44F /* SMRecommdVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMRecommdVC.h; sourceTree = "<group>"; };
+		0DF0A1E51E9E42010007A44F /* SMRecommdVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMRecommdVC.m; sourceTree = "<group>"; };
+		0DF0A1E71E9E421D0007A44F /* SMMyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMMyVC.h; sourceTree = "<group>"; };
+		0DF0A1E81E9E421D0007A44F /* SMMyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMMyVC.m; sourceTree = "<group>"; };
+		0DF0A1EA1E9E430A0007A44F /* SMDownloadVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMDownloadVC.h; sourceTree = "<group>"; };
+		0DF0A1EB1E9E430A0007A44F /* SMDownloadVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMDownloadVC.m; sourceTree = "<group>"; };
+		0DF0A1F61E9E45E20007A44F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		438DD9E565C1999DDEDB1392 /* Pods-SuperMoiveiPhone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperMoiveiPhone.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-SuperMoiveiPhone/Pods-SuperMoiveiPhone.debug.xcconfig"; sourceTree = "<group>"; };
+		6408316D5E41B175B80D7798 /* Pods-SuperMoiveiPhone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperMoiveiPhone.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SuperMoiveiPhone/Pods-SuperMoiveiPhone.release.xcconfig"; sourceTree = "<group>"; };
+		BEEA0FBDC5D0C5819F461B7E /* Pods_SuperMoiveiPhone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SuperMoiveiPhone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D639AA71E9E38220044B3D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D74582E1E9DF5EA00C170CA /* CCZDataModel.framework in Frameworks */,
+				0D639AD91E9E38DD0044B3D5 /* CCZThirdParty.framework in Frameworks */,
+				0D639ADA1E9E38DD0044B3D5 /* CCZUserCenter.framework in Frameworks */,
+				CC9F05C3D53DDCAED6D45600 /* Pods_SuperMoiveiPhone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D639AC01E9E38220044B3D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D639AA11E9E38220044B3D5 = {
+			isa = PBXGroup;
+			children = (
+				0D639AAC1E9E38220044B3D5 /* SuperMoiveiPhone */,
+				0D639AC61E9E38220044B3D5 /* SuperMoiveiPhoneUITests */,
+				0D639AAB1E9E38220044B3D5 /* Products */,
+				0D639AD21E9E38DD0044B3D5 /* Frameworks */,
+				4CF7C379B899DB6EC75963E8 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		0D639AAB1E9E38220044B3D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D639AAA1E9E38220044B3D5 /* SuperMoiveiPhone.app */,
+				0D639AC31E9E38220044B3D5 /* SuperMoiveiPhoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D639AAC1E9E38220044B3D5 /* SuperMoiveiPhone */ = {
+			isa = PBXGroup;
+			children = (
+				0D639ADB1E9E39220044B3D5 /* ViewControllers */,
+				0D639AB01E9E38220044B3D5 /* AppDelegate.h */,
+				0D639AB11E9E38220044B3D5 /* AppDelegate.m */,
+				0D639AB91E9E38220044B3D5 /* Assets.xcassets */,
+				0DF0A1F61E9E45E20007A44F /* PrefixHeader.pch */,
+				0D639ABE1E9E38220044B3D5 /* Info.plist */,
+				0D639AAD1E9E38220044B3D5 /* Supporting Files */,
+			);
+			path = SuperMoiveiPhone;
+			sourceTree = "<group>";
+		};
+		0D639AAD1E9E38220044B3D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D639AAE1E9E38220044B3D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D639AC61E9E38220044B3D5 /* SuperMoiveiPhoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D639AC71E9E38220044B3D5 /* SuperMoiveiPhoneUITests.m */,
+				0D639AC91E9E38220044B3D5 /* Info.plist */,
+			);
+			path = SuperMoiveiPhoneUITests;
+			sourceTree = "<group>";
+		};
+		0D639AD21E9E38DD0044B3D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D74582D1E9DF5EA00C170CA /* CCZDataModel.framework */,
+				0D639AD31E9E38DD0044B3D5 /* CCZFoundation.framework */,
+				0D639AD41E9E38DD0044B3D5 /* CCZGUI.framework */,
+				0D639AD51E9E38DD0044B3D5 /* CCZThirdParty.framework */,
+				0D639AD61E9E38DD0044B3D5 /* CCZUserCenter.framework */,
+				BEEA0FBDC5D0C5819F461B7E /* Pods_SuperMoiveiPhone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D639ADB1E9E39220044B3D5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D639ADC1E9E39220044B3D5 /* SMTabBarContrller.h */,
+				0D639ADD1E9E39220044B3D5 /* SMTabBarContrller.m */,
+				0DF0A1E41E9E42010007A44F /* SMRecommdVC.h */,
+				0DF0A1E51E9E42010007A44F /* SMRecommdVC.m */,
+				0DF0A1EA1E9E430A0007A44F /* SMDownloadVC.h */,
+				0DF0A1EB1E9E430A0007A44F /* SMDownloadVC.m */,
+				0DF0A1E71E9E421D0007A44F /* SMMyVC.h */,
+				0DF0A1E81E9E421D0007A44F /* SMMyVC.m */,
+				0D639ADE1E9E39220044B3D5 /* vcjson.json */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4CF7C379B899DB6EC75963E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				438DD9E565C1999DDEDB1392 /* Pods-SuperMoiveiPhone.debug.xcconfig */,
+				6408316D5E41B175B80D7798 /* Pods-SuperMoiveiPhone.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D639AA91E9E38220044B3D5 /* SuperMoiveiPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D639ACC1E9E38220044B3D5 /* Build configuration list for PBXNativeTarget "SuperMoiveiPhone" */;
+			buildPhases = (
+				B31D70D3AFA0F11A8C175D3E /* [CP] Check Pods Manifest.lock */,
+				0D639AA61E9E38220044B3D5 /* Sources */,
+				0D639AA71E9E38220044B3D5 /* Frameworks */,
+				0D639AA81E9E38220044B3D5 /* Resources */,
+				39C88AC69BB7D0FA272DF4CE /* [CP] Embed Pods Frameworks */,
+				EC1F3F0527213102277FC4A6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperMoiveiPhone;
+			productName = SuperMoiveiPhone;
+			productReference = 0D639AAA1E9E38220044B3D5 /* SuperMoiveiPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D639AC21E9E38220044B3D5 /* SuperMoiveiPhoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D639ACF1E9E38220044B3D5 /* Build configuration list for PBXNativeTarget "SuperMoiveiPhoneUITests" */;
+			buildPhases = (
+				0D639ABF1E9E38220044B3D5 /* Sources */,
+				0D639AC01E9E38220044B3D5 /* Frameworks */,
+				0D639AC11E9E38220044B3D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D639AC51E9E38220044B3D5 /* PBXTargetDependency */,
+			);
+			name = SuperMoiveiPhoneUITests;
+			productName = SuperMoiveiPhoneUITests;
+			productReference = 0D639AC31E9E38220044B3D5 /* SuperMoiveiPhoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D639AA21E9E38220044B3D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = chenchaozhong;
+				TargetAttributes = {
+					0D639AA91E9E38220044B3D5 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					0D639AC21E9E38220044B3D5 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0D639AA91E9E38220044B3D5;
+					};
+				};
+			};
+			buildConfigurationList = 0D639AA51E9E38220044B3D5 /* Build configuration list for PBXProject "SuperMoiveiPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D639AA11E9E38220044B3D5;
+			productRefGroup = 0D639AAB1E9E38220044B3D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D639AA91E9E38220044B3D5 /* SuperMoiveiPhone */,
+				0D639AC21E9E38220044B3D5 /* SuperMoiveiPhoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D639AA81E9E38220044B3D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D639AE01E9E39220044B3D5 /* vcjson.json in Resources */,
+				0D639ABA1E9E38220044B3D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D639AC11E9E38220044B3D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39C88AC69BB7D0FA272DF4CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SuperMoiveiPhone/Pods-SuperMoiveiPhone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B31D70D3AFA0F11A8C175D3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC1F3F0527213102277FC4A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-SuperMoiveiPhone/Pods-SuperMoiveiPhone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D639AA61E9E38220044B3D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF0A1EC1E9E430A0007A44F /* SMDownloadVC.m in Sources */,
+				0DF0A1E61E9E42010007A44F /* SMRecommdVC.m in Sources */,
+				0D639AB21E9E38220044B3D5 /* AppDelegate.m in Sources */,
+				0D639AAF1E9E38220044B3D5 /* main.m in Sources */,
+				0DF0A1E91E9E421D0007A44F /* SMMyVC.m in Sources */,
+				0D639ADF1E9E39220044B3D5 /* SMTabBarContrller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D639ABF1E9E38220044B3D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D639AC81E9E38220044B3D5 /* SuperMoiveiPhoneUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D639AC51E9E38220044B3D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D639AA91E9E38220044B3D5 /* SuperMoiveiPhone */;
+			targetProxy = 0D639AC41E9E38220044B3D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D639ACA1E9E38220044B3D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D639ACB1E9E38220044B3D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D639ACD1E9E38220044B3D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 438DD9E565C1999DDEDB1392 /* Pods-SuperMoiveiPhone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SuperMoiveiPhone/PrefixHeader.pch";
+				INFOPLIST_FILE = SuperMoiveiPhone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenchaohzong.SuperMoiveiPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0D639ACE1E9E38220044B3D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6408316D5E41B175B80D7798 /* Pods-SuperMoiveiPhone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SuperMoiveiPhone/PrefixHeader.pch";
+				INFOPLIST_FILE = SuperMoiveiPhone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenchaohzong.SuperMoiveiPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0D639AD01E9E38220044B3D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SuperMoiveiPhoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenchaohzong.SuperMoiveiPhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuperMoiveiPhone;
+			};
+			name = Debug;
+		};
+		0D639AD11E9E38220044B3D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SuperMoiveiPhoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chenchaohzong.SuperMoiveiPhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuperMoiveiPhone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D639AA51E9E38220044B3D5 /* Build configuration list for PBXProject "SuperMoiveiPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D639ACA1E9E38220044B3D5 /* Debug */,
+				0D639ACB1E9E38220044B3D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D639ACC1E9E38220044B3D5 /* Build configuration list for PBXNativeTarget "SuperMoiveiPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D639ACD1E9E38220044B3D5 /* Debug */,
+				0D639ACE1E9E38220044B3D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D639ACF1E9E38220044B3D5 /* Build configuration list for PBXNativeTarget "SuperMoiveiPhoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D639AD01E9E38220044B3D5 /* Debug */,
+				0D639AD11E9E38220044B3D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D639AA21E9E38220044B3D5 /* Project object */;
+}
